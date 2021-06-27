@@ -3,7 +3,7 @@
             folder = "GUIForms",
             iconBase = "templates/Formulario.png",
             displayName = "#FormSimple_displayName",
-            content = {"FormSimple.java.template", "FormularioSimple.form.template"},
+            content = {"FormSimple.java.template", "FormSimple.form.template"},
             description = "FormSimpleDescription.html",
             scriptEngine = "freemarker"),
     @TemplateRegistration(
