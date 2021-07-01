@@ -1,11 +1,5 @@
 @TemplateRegistrations({
-    @TemplateRegistration(
-            folder = "GUIForms",
-            iconBase = "templates/Formulario.png",
-            displayName = "#FormSimple_displayName",
-            content = {"FormSimple.java.template", "FormSimple.form.template"},
-            description = "FormSimpleDescription.html",
-            scriptEngine = "freemarker"),
+    
     @TemplateRegistration(
             folder = "GUIForms",
             iconBase = "templates/Formulario.png",
@@ -28,7 +22,7 @@
             description = "FormularioArbolDescription.html",
             scriptEngine = "freemarker")
 })
-@Messages({"FormSimple_displayName=Formulario Simple Vacio",
+@Messages({
     "FormularioSimple_displayName=Formulario Simple Vacio",
     "FormularioPorFichas_displayName=Formulario Por Fichas Vacio",
     "FormularioArbol_displayName=Formulario Arbol Vacio"})
